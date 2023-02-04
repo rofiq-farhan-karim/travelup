@@ -1,3 +1,3 @@
 # TravelUp
 
-TravelUp is trave list site to find tour destination.
+TravelUp is tourism list site to find tour destination.
