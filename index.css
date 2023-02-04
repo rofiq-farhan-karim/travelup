@@ -1,0 +1,56 @@
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  margin: 100px 20px 0 20px;
+}
+
+.item-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-bottom: 100px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 10px 10px;
+  transform: scale(1.01);
+}
+
+.card-image {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-input {
+  width: 100%;
+  font-size: xx-large;
+  border-radius: 5px;
+}
+
+.button-submit {
+  padding: 15px 20px;
+}
